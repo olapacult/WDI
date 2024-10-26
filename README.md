@@ -550,16 +550,15 @@ Na tym konczy sie funkcja `stworz_rozwiazanie` jesli jednak komus nie podoba sie
   <summary>🧠 Strategie</summary>
 
 ## Strategie
-Strategie definiują sposób, w jaki będziemy tworzyć nasze zadania w projekcie. umożliwiają  ulepszanie plików z rozwiązaniami, szablonami i testami. poprzez nowa logike ich tworzenia 
-Aby uzyc danej strategi wystarczy do `stworz_zadanie` w prototypie dodac argument `strategia=` i nazwa strategi. akutalna liste strategi znajdziesz w pliku [srt/Strategie](srt/Strategie) kazda z nich bedzie funkcja ktore definiuje jej nazwe i krotki komentarz na czym polega 
+Strategie definiują sposób, w jaki będziemy tworzyć nasze zadania w projekcie. Umożliwiają ulepszanie plików z rozwiązaniami, szablonami i testami, poprzez nową logikę ich tworzenia. Aby użyc danej strategi wystarczy do `stworz_zadanie` w prototypie dodać argument `strategia=` i nazwa strategi. Akutalną listę strategi znajdziesz w pliku [srt/Strategie](srt/Strategie). Każda z nich będzie funkcją, która definiuje jej nazwę i krótki komentarz na czym polega. 
 
 
 
 
 ### Podstawy Pisania Strategi
-Dla przykladu zrobimy strategie w ktorej 
-- **`szablon`**  jest takie samo jak domyslnie ale z data rozwiazania na gorze
-- **`rozwiazania.py`**  nie zawiera opisu zadania ani sekcji `main`, skupiamy cale meritum rozwiazania 
+Dla przykładu zrobimy strategie w której:
+- **`szablon`**  jest takie samo jak domyślnie, ale z datą rozwiazania na górze
+- **`rozwiazania.py`**  nie zawiera opisu zadania, ani sekcji `main`, skupiamy całe meritum rozwiązania 
 - **`testy.py`**  jest bazowe
 
   
